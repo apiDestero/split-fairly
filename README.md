@@ -1,6 +1,8 @@
 # Split fairly
 Split the bill evenly among your friends
 
+![Alt text](/screenshot.jpg?raw=true "Screenshot")
+
 ### Create user table
 
 ```
