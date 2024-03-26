@@ -1,0 +1,115 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #b7b7b7;
+}
+  
+.container {
+    background-color: #f0f0f0;
+    padding: 20px 20px 50px 20px;
+    /* border-radius: 8px; */
+    margin: 10px;
+    box-shadow: -1px 0px 10px #a3a3a3;
+    --mask: conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/20px 100%;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+}
+
+.fatal-error {
+    text-align: center;
+    color: #f00707;
+}
+
+.headerline {
+    text-align: center;
+    font-size: 40px;
+    color: #454545;
+}
+
+hr {
+    border: 0;
+    border-bottom: 3px dashed #ababab;
+    background: none;
+}
+
+#messages {
+    min-height: 5vw;
+    padding: 5px;
+    text-align: center;
+    color: #f00707;
+}
+
+.input-block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+input, button {
+    width: 100%;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-block input[type="text"], .input-block input[type="email"] {
+    box-sizing: border-box;
+    height: 45px;
+    padding: 6px 10px;
+}
+
+button {
+    display: block;
+    color: #f1f1f1;
+    background-color: #6f7875;
+    padding: 14px 28px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button.success {
+    background-color: #00a368;
+    border-color: #187b00;
+}
+
+.item-row {
+    display: block;
+    padding: 4px 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table td, table th {
+    border-bottom: 2px dashed #ababab;
+    padding: 8px;
+}
+
+table tr {
+    background-color: #e5e5e5;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #efefef;
+    color: #454545;
+}
+  
+@media (max-width: 768px) {
+
+    
+}
