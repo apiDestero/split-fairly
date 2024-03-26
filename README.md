@@ -1,4 +1,4 @@
-#Split fairly
+# Split fairly
 Split the bill evenly among your friends
 
 ### Create user table
