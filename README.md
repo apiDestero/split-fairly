@@ -1,8 +1,6 @@
 # Split fairly
 Split the bill evenly among your friends
 
-![Alt text](/screenshot.jpg?raw=true "Screenshot")
-
 ### Create user table
 
 ```
@@ -29,3 +27,5 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'root');
 define('DB_DATABASE', 'test');
 ```
+
+![Alt text](/screenshot.jpg?raw=true "Screenshot")
